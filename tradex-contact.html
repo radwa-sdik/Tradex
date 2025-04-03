@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/tradex.css">
+</head>
+<body>
+    <header class=" d-none d-lg-block bg-primary text-light">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6 py-2 header-left">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram "></i>
+                    <i class="fa-brands fa-google-plus-g "></i>
+                    
+                    <span class="mx-2">|</span>
+
+                    <i class="fa-solid fa-location-dot me-1"></i>
+                    <span>267 Park Avenue New York, NY 90210</span>
+                </div>
+                <div class="col-6 py-2 text-end">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Quick Email</span>
+                    <span class="mx-2">|</span>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span>+1 (409) 987–5874</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light py-4 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/Trade-X-Logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase"  href="#" id="HomeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                    <ul class="dropdown-menu" aria-labelledby="HomeDropdown">
+                        <li><a class="dropdown-item" href="tradex.html">Home01</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Home02</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="headersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Headers
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="headersDropdown">
+                      <li><a class="dropdown-item" href="#">Header Style 1</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Header Style 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Header Style 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Header Style 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase"  href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">blog post</a>
+                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                        <li>
+                            <a class="dropdown-item"  href="#">Blog Grid</a>
+                          </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Blog Masonary</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Clasic</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Blog Detail</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="serviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+                      <li><a class="dropdown-item" href="#">Full Width</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Service 2 Column</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Service 3 Column</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Service 4 Column</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="featureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      features
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="featureDropdown">
+                      <li><a class="dropdown-item" href="#">Short Codes</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Feature 2 Column</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Feature 3 Column</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Feature 4 Column</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      pages
+                    </a>
+                    <div class="dropdown-menu ch">
+                        <div class="row px-4 py-2 ">
+                            <div class="col-3 border-end">
+                                <h5 class="mb-2">Project Style 1</h5>
+                                <a class="nav-link">2 Column Grid </a>
+                                <a class="nav-link">3 Column Grid</a> 
+                                <a class="nav-link">2 Column Masonary</a>
+                                <a class="nav-link">3 Column Masonary</a>
+                            </div>
+                            <div class="col-3 border-end">
+                                <h5 class="mb-2">Project Style 2</h5>
+                                <a class="nav-link">2 Col Grid </a>
+                                <a class="nav-link">3 Col Grid</a> 
+                                <a class="nav-link">2 Col Masonary</a>
+                                <a class="nav-link">3 Col Masonary</a>
+                            </div>
+                            <div class="col-3 border-end">
+                                <h5 class="mb-2">Other Page</h5>
+                                <a class="nav-link">Project Detail </a>
+                                <a class="nav-link">Team Style 1</a> 
+                                <a class="nav-link">Team Style 2</a>
+                                <a class="nav-link">Team Detail</a>
+                            </div>
+                            <div class="col-3">
+                                <h5 class="mb-2">Other Page</h5>
+                                <a class="nav-link">Pricing</a>
+                                <a class="nav-link">FAQ</a> 
+                                <a class="nav-link">404</a>
+                                <a class="nav-link">Typography</a>
+                            </div>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase" href="#">Contact</a>
+                  </li>
+              </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="start" style="height: 350px;">
+        <div class="overlay text-white">
+            <div class="d-flex justify-content-center align-items-center word">
+                <h1>Contact</h1>
+            </div>
+            <div class="bg-black d-flex justify-content-center align-items-center start-bt">
+                <p class="mb-0"><span type="button">Home</span> <b class="mx-2">></b> <span type="button" class="text-muted">Contact</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-info" class="p-5">
+        <div class="text-center mb-5">
+            <h2 class="mt-5 about_title"><span class="s1">Contact Info</span></h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 text-center">
+                <i class="fa-solid fa-location-dot text-primary fs-1"></i>
+                <p class="my-2 fs-5">Address</p>
+                <p class="text-muted">267-A , Street Name Park Sera Avenue , New York, NY 90210</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <i class="fa-solid fa-phone-volume text-primary fs-1"></i>
+                <p class="my-2 fs-5">Call Us</p>
+                <p class="text-muted">Phone 1 : (+098) 7654 3210</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <i class="fa-regular fa-envelope text-primary fs-1"></i>
+                <p class="my-2 fs-5">Email</p>
+                <p class="text-muted">support@company.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="in-touch" class="p-5">
+        <div class="text-center mb-5">
+            <h2 class="mt-5 about_title"><span class="s1">Get In Touch</span></h2>
+        </div>
+        <form action="" class="row">
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text border-0 border-bottom bg-white" id="basic-addon1"><i class="fa-regular fa-user"></i></span>
+                    <input type="text" class="form-control border-0 border-bottom" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text border-0 border-bottom bg-white" id="basic-addon1"><i class="fa-regular fa-envelope"></i></span>
+                    <input type="email" class="form-control border-0 border-bottom" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text border-0 border-bottom bg-white" id="basic-addon1"><i class="fa-solid fa-pencil"></i></span>
+                    <input type="text" class="form-control border-0 border-bottom" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="input-group mb-3 txtar mt-4">
+                <span class="input-group-text border-0 border-bottom bg-white txti" id="basic-addon1"><i class="fa-solid fa-pencil"></i></span>
+                <textarea class="border-0 form-control border-bottom" aria-label="With textarea" placeholder="Your Message"></textarea>
+            </div>
+            
+        </form>
+        <button class="btn btn-primary btn-lg rounded-pill">Send Message</button>
+    </section>
+
+    <section class="p-5 bg-primary d-lg-flex justify-content-between text-center">
+        <h2 class="text-white text-capitalize">if You Like this Grate Work ?? For you site...</h2>
+        <button class="btn bg-white text-primary rounded-pill px-4"><b>Purchase Now</b></button>
+    </section>
+
+    <section id="end" class="py-5 px-3 text-white bg-dark">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h3>Contact Info</h3>
+            <hr class="text-primary">
+            <div>
+              <i class="fa-solid fa-location-dot me-1"></i>
+              <span>123 Street Market, Life Plaza, New York</span>
+            </div>
+            <div class="my-2">
+              <i class="fa-solid fa-phone-volume"></i>
+              <span>987654321</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-envelope"></i>
+              <span>team@gmail.com</span>
+            </div>
+                      
+          </div>
+          <div class="col-lg-4 col-md-6 post mb-4">
+            <h3>Posts</h3>
+            <hr class="text-primary">
+            <div class="row">
+              <img src="images/gallery2-1-360x260.png" type="button" class="col-3" alt="">
+              <div class="col-9">
+                <h6 type="button">Four ways to cheer and plan your self up on Blue</h6>
+                <i class="fa-regular fa-calendar-days text-muted"></i>
+                <span class="text-muted">December 19, 2018</span>
+              </div>
+            </div>
+            <hr class="post-hr text-muted">
+            <div class="row">
+              <img src="images/bg3-360x260.jpg" type="button" class="col-3" alt="">
+              <div class="col-9">
+                <h6 type="button">Four ways to cheer and plan your self up on Blue</h6>
+                <i class="fa-regular fa-calendar-days text-muted"></i>
+                <span class="text-muted">December 19, 2018</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h3>Popular</h3>
+            <hr class="text-primary">
+            <div class="mt-5 popular-buttons">
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill">Accountancy</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">Affliate</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">branding</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">construction</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">design</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">drupal</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">education</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">graphics</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">joomla</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">markiting</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">money</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">tally</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">transform</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">website</button>
+              <button class="bg-white border-0 px-2 py-1 mb-2 text-dark rounded-pill text-capitalize">wordpress</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="bg-dark text-primary text-center py-3">
+        <p class="pt-2">© 2019 Developed By DTM Theme</p>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+            margin:30,
+            dots:false,
+            loop:true,
+            nav:true,
+            navText:[$('.nav-prev'),$('.nav-next')],
+            responsive:{
+                0:{
+                    items:1
+                },
+                992:{
+                    items:2
+                }
+            }
+        })
+      });
+    </script>
+</body>
+</html>
